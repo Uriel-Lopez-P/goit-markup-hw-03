@@ -30,6 +30,8 @@ header {
     background-color: var(--color-background-nav);
 }
 
+
+
 .container {
     display: flex;
     width: 1200px;
@@ -168,7 +170,7 @@ li {
     margin-left: 18px;
 }
 
-.contenido1{
+.section{
     /* display: inline; */
     width: 1200px;
     margin-left: auto;
@@ -177,7 +179,7 @@ li {
     position: relative;
 }
 
-.contenido1 h2 {
+.section h2 {
     text-align: center;
     margin-top: 94px;
     font-style: normal;
