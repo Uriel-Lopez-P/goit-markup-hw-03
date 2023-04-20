@@ -30,6 +30,15 @@ header {
     background-color: var(--color-background-nav);
 }
 
+.container {
+    width: 1200px;
+}
+
+.section2 {
+    padding-top: 94px;
+    background: var(--color-background-team);
+    padding-bottom: 90px;
+}
 
 
 .nav {
@@ -143,7 +152,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 200px;
-    width: 1170px;
+    /* width: 1200px; */
     height: 122px;
 }
 .container  h3 {
@@ -198,14 +207,10 @@ li {
 
 
 
-.section2 {
-    background: var(--color-background-team);
-    margin-top:94px;
-    padding-bottom: 90px;
-}
+
 
 .section2 h2 {
-    padding-top: 94px;
+    /* padding-top: 94px; */
     text-align: center;
     font-style: normal;
     font-weight: 700;
