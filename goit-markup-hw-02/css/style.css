@@ -32,7 +32,7 @@ header {
 
 
 
-.container {
+.nav {
     display: flex;
     width: 1200px;
     height: 80px;
@@ -42,7 +42,7 @@ header {
     justify-content: space-between;
 }
 
-.container_logo {
+.nav_logo {
     color: var(--color-background-button);
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
@@ -137,7 +137,7 @@ li {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.conteiner {
+.container {
     display: flex;
     margin-top: 95px;
     margin-left: auto;
@@ -146,7 +146,7 @@ li {
     width: 1170px;
     height: 122px;
 }
-.conteiner  h3 {
+.container  h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -154,7 +154,7 @@ li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.conteiner p {
+.container p {
     display: flex;
     align-items: center;
     font-style: normal;
@@ -164,18 +164,18 @@ li {
     color: var(--color-text-description);
 
 }
-.conteiner article {
+.container article {
     margin-right: 10px;
     margin-left: 18px;
 }
 
-.section{
+.section {
     /* display: inline; */
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top:50px;
-    position: relative;
+    /* position: relative; */
 }
 
 .section h2 {
@@ -198,13 +198,13 @@ li {
 
 
 
-.our-team{
+.section2 {
     background: var(--color-background-team);
     margin-top:94px;
     padding-bottom: 90px;
 }
 
-.our-team h2 {
+.section2 h2 {
     padding-top: 94px;
     text-align: center;
     font-style: normal;
@@ -236,10 +236,15 @@ li {
     border-radius: 0px 0px 4px 4px;
 }
 
+.parrafo{
+    padding: 10px;
+}
+
 .card h4 , .parrafo{
     padding-top: 10px;
     text-align: center;
 }
+
 .card .parrafo{
     padding-bottom: 30px;
 }
@@ -263,7 +268,7 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--color-text-description);
 }
