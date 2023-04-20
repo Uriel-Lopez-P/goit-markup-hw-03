@@ -84,7 +84,7 @@ li {
 
 
 
-.link_button {
+.link_buttons {
     color: var(--color-general-text);
     font-style: normal;
     font-weight: 500;
@@ -93,7 +93,7 @@ li {
     letter-spacing: 0.02em;
 }
 
-.link_button:hover {
+.link_buttons:hover {
     color: var(--color-text-on);
 }
 
