@@ -82,7 +82,9 @@ li {
     list-style: none;
 }
 
-
+#font-color{
+    color: var(--color-text-title);
+}
 
 .link_buttons {
     color: var(--color-general-text);
@@ -205,10 +207,6 @@ li {
     
 }
 
-
-
-
-
 .section2 h2 {
     /* padding-top: 94px; */
     text-align: center;
@@ -286,6 +284,7 @@ footer{
     width: 231px;
     padding-top: 60px;
     margin-left: 215px;
+    color: var(--color-background-nav);
     background: var(--color-background-footer);
 }
 
@@ -310,7 +309,7 @@ footer{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-background-nav);
 }
 
 
