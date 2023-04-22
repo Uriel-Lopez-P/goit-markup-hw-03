@@ -151,6 +151,7 @@ li {
 .container {
     display: flex;
     margin-top: 95px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 200px;
@@ -207,6 +208,13 @@ li {
     
 }
 
+.technology-section{
+    width: 347px;
+    height: 324px;
+}
+
+
+
 .section2 h2 {
     /* padding-top: 94px; */
     text-align: center;
@@ -245,7 +253,7 @@ li {
 
 .card h4 , .parrafo{
     padding-top: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .card .parrafo{
