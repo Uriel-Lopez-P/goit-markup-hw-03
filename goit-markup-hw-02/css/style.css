@@ -10,6 +10,7 @@
 body {
     /* background: var(--color-background-header); */
     font-family: 'Roboto';
+    
 }
 
 :root {
@@ -24,6 +25,7 @@ body {
     --color-background-body: #E5E5E5;
     --color-background-team: #F5F4FA;
     --color-background-nav: #FFFFFF;
+    --color-icon: #AFB1B8;
 }
 
 header {
@@ -106,7 +108,7 @@ li {
 .section-principal {
     width: 100%;
     height: 600px;
-    background: var(--color-background-header);
+    background-image: url(../images/principal-img.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,6 +151,7 @@ li {
 }
 
 .container {
+
     display: flex;
     margin-top: 95px;
     width: 1200px;
@@ -232,7 +235,6 @@ li {
 }
 
 .card {
-    
     justify-content: space-between;
 }
 
@@ -245,6 +247,7 @@ li {
     background-color: var(--color-background-nav);
     /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); */
     border-radius: 0px 0px 4px 4px;
+    
 }
 
 .parrafo{
@@ -279,10 +282,10 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--color-text-description);
 }
+
 footer{
     width: 100%;
     height: 252px;
@@ -443,6 +446,100 @@ footer{
     color: var(--color-text-description);
     margin-left: 24px;
 }
+
+.card .list li a {
+    display: inline-flex;
+    display: flex;
+    gap: 18px ;
+    color: var(--color-text-title);
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    outline: none;
+}
+.card .list li a  .icon  {
+    width: 24px;
+    height: 24px;
+    fill:  var(--color-icon);
+}
+
+.card .list li a:hover,
+.card .list li a:focus {
+    
+    border-radius: 25px;
+    width: 35px;
+    height: 35px;
+    color: var(--color-background-team);
+    background: var(--color-text-on);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card .list li a:hover .icon{
+    fill: var(--color-btn-on);
+}
+
+.list{
+    justify-content: center;
+    display: flex;
+    gap: 18px ;
+    color: var(--color-text-title);
+}
+
+
+.svgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 270px;
+    margin-bottom: 15px;
+    background: var(--color-background-team);
+}
+
+.nav-icon {
+    margin-right:10px ;
+}
+.nav-icon:hover {
+    fill: var(--color-background-button);
+}
+
+
+/*---------------------regular-clients------------------------*/
+
+.regular-clients{
+    width: 100%;
+    height: 372px;
+
+}
+
+.client {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 59px;
+}
+
+.resources{
+    width: 1170px;
+    height: 81px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 
 
 
